@@ -1,0 +1,36 @@
+/* body セクション: ページ全体のスタイルを設定 */
+body {
+    
+    background: linear-gradient(to right, #76eef2 0%, #47f856 99%, #fad0c4 100%); /* 背景色をグラデーションに設定 */
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}
+/* 検索フォームのスタイル */
+form {
+    position: absolute; /* 要素の位置を絶対位置で指定 */
+    top: 20px; /* 上からの距離 */
+    right: 20px; /* 右からの距離 */
+    /* その他のスタイル設定 */
+    background-color: #f8f9fa;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

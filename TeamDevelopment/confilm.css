@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif; /* フォントをArial、sans-serifに設定 */
+    background-color: #f0f0f0; /* 背景色を#f0f0f0に設定 */
+    padding: 20px; /* 本体全体に20pxのパディングを追加 */
+    display: flex; /* フレックスボックスレイアウトを使用 */
+    flex-direction: column; /* フレックスアイテムを垂直方向に配置 */
+    align-items: center; /* フレックスアイテムを水平方向の中央に配置 */
+    justify-content: center; /* フレックスアイテムを垂直方向の中央に配置 */
+    height: 100vh; /* 本体の高さをビューポートの高さの100%に設定 */
+    margin: 0; /* 本体全体のマージンを0に設定 */
+}
+
+table {
+    border-collapse: collapse; /* セルのボーダーを1つにまとめる */
+    width: 50%; /* テーブルの幅を50%に設定 */
+    margin-bottom: 20px; /* テーブルの下側に20pxのマージンを追加 */
+    text-align: center; /* テキストをセンタリング */
+}
+
+td {
+    padding: 10px; /* テーブルデータセルに10pxのパディングを追加 */
+    border: 1px solid #ccc; /* セルに1pxの#ccc色のボーダーを追加 */
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049; /* サブミットボタンにマウスを置くと背景色が#45a049に変わる */
+}
+
+button:hover {
+    background-color: #45a049; /* ボタンにマウスを置くと背景色が#45a049に変わる */
+}
+
+input[name="count"] {
+    width: 10%; /* name属性が"count"のinput要素の幅を10%に設定 */
+    height: 4%; /* name属性が"count"のinput要素の高さを4%に設定 */
+    box-sizing: border-box; /* ボーダーとパディングを要素の幅と高さに含める */
+}
+
+input[type="submit"], button {
+    width: 25%; /* サブミットボタンとボタンの幅を25%に設定 */
+    height: 50px; /* サブミットボタンとボタンの高さを50pxに設定 */
+    background-color: #4CAF50; /* サブミットボタンとボタンの背景色を#4CAF50に設定 */
+    color: white; /* サブミットボタンとボタンのテキスト色を白に設定 */
+    padding: 16px 32px; /* サブミットボタンとボタンに上下16px、左右32pxのパディングを追加 */
+    text-align: center; /* サブミットボタンとボタンのテキストをセンタリング */
+    text-decoration: none; /* サブミットボタンとボタンのテキスト装飾を無効にする */
+    display: inline-block; /* サブミットボタンとボタンをインラインブロック要素として表示 */
+    font-size: 16px; /* サブミットボタンとボタンのフォントサイズを16pxに設定 */
+    margin: 4px 2px; /* サブミットボタンとボタンに上下4px、左右2pxのマージンを追加 */
+    cursor: pointer; /* サブミットボタンとボタンにマウスを置くとカーソルがポインタになる */
+    border: none; /* サブミットボタンとボタンのボーダーを無効にする */
+}
+

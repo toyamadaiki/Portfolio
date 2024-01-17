@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background: linear-gradient(to right,#f0f35a 1%, #dc65ec 0%, #625dee 99%, #63eab8 100%); /* 背景色をグラデーションに設定 */
+
+    /* 背景画像がビューポートに合うようにサイズを調整 */
+    background-position: center;
+    /* 背景画像が中央に配置されるように */
+    margin: 15px;
+    padding: 0;
+    margin-bottom: 20px; /* これにより、各要素の下に20pxの間隔ができます */
+    margin-top: 25vh;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #f0f35a 1%, #dc65ec 0%, #625dee 99%, #63eab8 100%); /* 背景色をグラデーションに設定 */
+
+    padding: 10px;
+    width: 50%; /* 横幅を短くする */
+    margin: 0 auto; /* 全体を中央に配置する */
+    font-size: 20px; /* 文字サイズを調整する */
+    text-align: center; /* テキストを中央に配置する */
+    margin-bottom: 40px; /* これにより、各要素の下に20pxの間隔ができます */
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,#f0f35a 1%, #dc65ec 0%, #625dee 99%, #63eab8 100%); /* 背景色をグラデーションに設定 */
+
+    padding: 10px;
+    width: 50%; /* 横幅を短くする */
+    margin: 0 auto; /* 全体を中央に配置する */
+    font-size: 20px; /* 文字サイズを調整する */
+    text-align: center; /* テキストを中央に配置する */
+    margin-bottom: 40px; /* これにより、各要素の下に20pxの間隔ができます */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,#f0f35a 1%, #dc65ec 0%, #625dee 99%, #63eab8 100%); /* 背景色をグラデーションに設定 */
+    padding: 10px;
+    width: 50%; /* 横幅を短くする */
+    margin: 0 auto; /* 全体を中央に配置する */
+    margin-bottom: 40px; /* これにより、各要素の下に20pxの間隔ができます */
+}
+button {
+    
+    color: white;
+    background-color: #35ce37;
+    margin: 0 25%;
+    text-align: center;
+    width: 8%;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px; /* 修正 */
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* 追加 */
+    overflow: auto;
+}
+input[type="submit"] {
+    color: white;
+    background-color: #35ce37;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 0;
+    width: 100%;
+
+}
+input[type="submit"]:hover {
+    background-color: #a7f978;
+}
+button[type="button"]:hover{
+    background-color: #a7f978;
+}

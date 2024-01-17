@@ -1,0 +1,75 @@
+/* body要素（HTML文書全体）に適用するスタイル */
+body {
+    font-family: Arial, sans-serif; /* テキストのフォントをArialに設定 */
+    background: linear-gradient(to right, #819be4 0%, #8b30c4 99%, #36f7f4 100%);
+    padding: 15px; /* body要素の全ての辺に20ピクセルのパディング（境界と内容の間のスペース）を追加 */
+    text-align: center; /* テキストを中央揃えに設定 */
+    width: 800px;
+    height: 100vh; /* body要素の高さをビューポートの高さの100%に設定 */
+    margin: auto;
+    display: flex; /* 子要素をフレックスボックスとして表示 */
+    justify-content: center; /* 子要素を水平方向に中央揃えに設定 */
+    align-items: center; /* 子要素を垂直方向に中央揃えに設定 */
+    flex-direction: column; /* 子要素を縦に並べる */
+}
+
+/* form要素に適用するスタイル */
+form {
+    background-color: #ffffff; /* 背景色を白に設定 */
+    padding: 20px; /* form要素の全ての辺に20ピクセルのパディングを追加 */
+    border-radius: 5px; /* 境界の角を丸くする */
+    margin-bottom: 10px; /* form要素の下に10ピクセルのマージン（境界の外側のスペース）を追加 */
+    width: 60%; /* form要素の横幅を親要素の60%に設定 */
+    height: auto; /* form要素の高さを親要素の60%に設定 */
+    margin: auto; /* form要素を水平方向に中央揃えにする */
+    margin-top: 10%; /* form要素の上に10%のマージンを追加 */
+}
+
+/* テキスト入力フィールド（input要素）に適用するスタイル */
+input[type='text'] {
+    width: 95%; /* テキスト入力フィールドの横幅を親要素の95%に設定 */
+    height: 200px;
+    padding: 15px; /* テキスト入力フィールドの内容と境界の間に10ピクセルのパディングを追加 */
+    margin-bottom: 10px; /* テキスト入力フィールドの下に10ピクセルのマージンを追加 */
+    border-radius: 5px; /* テキスト入力フィールドの境界の角を丸くする */
+    border: 1px solid #cccccc; /* テキスト入力フィールドの境界線を1ピクセルの実線で、色は薄い灰色に設定 */
+}
+
+/* 送信ボタン（input要素）に適用するスタイル */
+input[type='submit'] {
+    background-color: #007BFF; /* ボタンの背景色を青に設定 */
+    color: white; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボタンの境界線を削除 */
+    padding: 10px 15px; /* ボタンの内容と境界の間にパディングを追加（上下に10ピクセル、左右に15ピクセル） */
+    border-radius: 5px; /* ボタンの境界の角を丸くする */
+    cursor: pointer; /* マウスカーソルをポインタに変更（クリック可能な要素を示す） */
+    width: 40%; /* ボタンの横幅を親要素の65%に設定 */
+    margin-top: 20px;
+}
+
+/* 送信ボタンにマウスを置いたときに適用するスタイル */
+input[type='submit']:hover {
+    background-color: #0056b3; /* ボタンの背景色を濃い青に変更 */
+}
+
+/* button要素に適用するスタイル */
+button {
+    background-color: #f44336; /* ボタンの背景色を赤に設定 */
+    color: white; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボタンの境界線を削除 */
+    text-align: center; /* テキストを中央揃えに設定 */
+    text-decoration: none; /* テキストの装飾（下線など）を削除 */
+    display: block; /* ボタンをブロックレベル要素として表示 */
+    font-size: 16px; /* フォントサイズを16ピクセルに設定 */
+    border-radius: 5px; /* ボタンの境界の角を丸くする */
+    margin: auto; /* ボタンを水平方向に中央揃えにする */
+    cursor: pointer; /* マウスカーソルをポインタに変更（クリック可能な要素を示す） */
+    width: 40%; /* ボタンの横幅を親要素の65%に設定 */
+    height: 40px; /* ボタンの高さを60ピクセルに設定 */
+    margin-top: 10px;
+}
+
+/* button要素にマウスを置いたときに適用するスタイル */
+button:hover {
+    background-color: #da190b; /* ボタンの背景色を濃い赤に変更 */
+}

@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #7f32f1 0%, #b354f3 99%, #82d7e2 100%);
+    text-align: center;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%; /* 横幅を短くする */
+    margin: 0 auto; /* 全体を中央に配置する */
+    font-size: 20px; /* 文字サイズを調整する */
+    text-align: center; /* テキストを中央に配置する */
+    margin-bottom: 40px; /* これにより、各要素の下に20pxの間隔ができます */
+}
+
+button {
+    
+    color: white;
+    background-color: #35ce37;
+    margin: 0 25%;
+    text-align: center;
+    width: 8%;
+}
+
+button:hover {
+    background-color: #4CAF50; /* ボタンにマウスを置くと背景色が#4CAF50に変わる */
+    color: white; /* ボタンのテキスト色を白に設定 */
+}

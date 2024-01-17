@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel=stylesheet href="operationtop.css">
+    <title>寄贈図書検索画面</title>
+  </head>
+  <body>
+ 
+    <form action="searchlogic.php" method="post">
+
+      タイトル<br>
+      <input type="text" placeholder="タイトル名を入力" name="title"><br>
+      
+      著者名<br>
+      <input type="text" placeholder="著者名を入力" name="writer"><br>
+ 
+      キーワード<br>
+      <textarea name="keyword" placeholder="キーワード 例:竜、電車など"rows="6" cols="80"></textarea><br>
+
+      年齢層<br>
+      <select name="generation">
+        <option value="">対象年齢を選択</option>
+        <option value="乳児向け">乳児向け</option>
+        <option value="幼児向け">幼児向け</option>
+        <option value="小学校低~中学年">小学校低~中学年</option>
+        <option value="小学校中~高学年">小学校中~高学年</option>
+        <option value="中学生">中学生</option>
+        <option value="高校生">高校生</option>
+      </select><br>
+
+      カテゴリー<br>
+      <select name="category">
+        <option value="">カテゴリーを選択</option>
+        <option value="絵本">絵本</option>
+        <option value="小説">小説</option>
+        <option value="図鑑">図鑑</option>
+      </select><br>
+
+      ジャンル<br>
+      <select name="genre">
+        <option value="">ジャンルを選択</option>
+        <option value="ほにゃらら">ほにゃらら</option>
+        <option value="ぶーぶー">ぶーぶー</option>
+        <option value="だんだん">だんだん</option>
+      </select><br>
+ 
+      <input type="submit" value="検索">
+    </form>
+ 
+  </body>
+</html>

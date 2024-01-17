@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #6ed282 0%, #eff847 99%, #fad0c4 100%);
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: #2abac2;
+    color: white;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    justify-content: center;
+    
+}
+
+    .delivery-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex; /* リストをフレックスコンテナに設定 */
+        flex-direction: column; /* リストアイテムを縦に並べる */
+        align-items: center; /* リストアイテムを中央揃えに設定 */
+    }
+    .delivery-list-item {
+    
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 80%; /* ボックスの幅を80%に設定 */
+        text-align: center; /* テキストを中央揃えに設定 */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* ボックスに影を追加 */
+        background-color: #ffffff;
+        font-size: 20px; /* テキストのサイズを20pxに設定 */
+    }
+    .delivery-list-item a {
+        text-decoration: none;
+        color: #333;
+    }
+    .delivery-list-item a:hover {
+        color: #007BFF; /* マウスオーバー時の色（この例ではブルー） */
+    }
+    .delivery-list-item a:active {
+        color: #FF6347; /* クリック時の色（この例ではトマト色） */
+    }
+    .delivery-list-item a:hover {
+        background-color: #f8f9fa; /* マウスオーバー時の背景色（この例ではライトグレー） */
+    }
+    button{
+        background-color: #2abac2;
+    color: white;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }

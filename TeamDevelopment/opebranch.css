@@ -1,0 +1,33 @@
+body {
+    display: flex; /* フレックスボックスレイアウトを使用 */
+    flex-direction: column; /* フレックスアイテムを垂直方向に配置 */
+    justify-content: center; /* フレックスアイテムを垂直方向の中央に配置 */
+    align-items: center; /* フレックスアイテムを水平方向の中央に配置 */
+    height: 100vh; /* 本体の高さをビューポートの高さの100%に設定 */
+    margin: 0; /* 本体全体のマージンを0に設定 */
+    background: linear-gradient(to right, #819be4 0%, #8b30c4 99%, #36f7f4 100%); /* 背景に右向きの線形グラデーションを設定 */
+    font-family: Arial, sans-serif; /* フォントをArial、sans-serifに設定 */
+}
+
+button {
+    background-color: #007BFF; /* ボタンの背景色を#007BFFに設定 */
+    color: white; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボタンのボーダーを無効にする */
+    padding: 15px 32px; /* ボタンに上下15px、左右32pxのパディングを追加 */
+    text-align: center; /* ボタンのテキストをセンタリング */
+    text-decoration: none; /* ボタンのテキスト装飾を無効にする */
+    display: inline-block; /* ボタンをインラインブロック要素として表示 */
+    font-size: 20px; /* ボタンのフォントサイズを16pxに設定 */
+    margin: 4px 2px; /* ボタンに上下4px、左右2pxのマージンを追加 */
+    cursor: pointer; /* ボタンにマウスを置くとカーソルがポインタになる */
+    border-radius: 4px; /* ボタンの角を丸くする */
+    transition-duration: 0.4s; /* ホバーエフェクトの遷移時間を0.4秒に設定 */
+    width: 250px; /* ボタンの幅を100pxに設定 */
+    height: 90px; /* ボタンの高さを50pxに設定 */
+}
+
+
+button:hover {
+    background-color: #4CAF50; /* ボタンにマウスを置くと背景色が#4CAF50に変わる */
+    color: white; /* ボタンのテキスト色を白に設定 */
+}

@@ -1,0 +1,64 @@
+/* body要素（HTML文書全体）に適用するスタイル */
+body {
+    background: linear-gradient(to right,#f0f35a 1%, #dc65ec 0%, #625dee 99%, #63eab8 100%); /* 背景色をグラデーションに設定 */
+    font-family: Arial, sans-serif; /* テキストのフォントをArialに設定（Arialが利用できない場合は、サンセリフ体のフォントを使用） */
+    width: 700px; /*　横の幅を調節　*/
+    height: 400px;/*　縦の幅を調節　*/
+    margin: auto;/*　リストを水平方向に中央揃えする　*/
+}
+
+/* ul要素（順序なしリスト）に適用するスタイル */
+ul {
+    list-style-type: none; /* リスト項目の前のマーカー（通常は黒い丸）を削除 */
+    padding: 0; /* リストのパディング（境界と内容の間のスペース）を0に設定 */
+    width: 80%; /* リストの横幅を親要素の80%に設定 */
+    margin: auto; /* リストを水平方向に中央揃えにする */
+}
+
+/* li要素（リスト項目）に適用するスタイル */
+li {
+    margin-bottom: 10px; /* 各リスト項目の下に10ピクセルのマージン（境界の外側のスペース）を追加 */
+    background-color: #fff; /* リスト項目の背景色を白に設定 */
+    padding: 10px; /* リスト項目の内容と境界の間に10ピクセルのパディングを追加 */
+    border-radius: 5px; /* リスト項目の境界の角を丸くする */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* リスト項目に薄い影を追加 */
+    width: 70%; /* リスト項目の横幅を親要素の70%に設定 */
+    height: 70px; /* リスト項目の高さを70ピクセルに設定 */
+    margin: auto; /* リスト項目を水平方向に中央揃えにする */
+    margin-top: 10%;/* 余白の上の間隔を調整する*/
+}
+
+/* form要素に適用するスタイル */
+form {
+    display: flex; /* フォームをフレキシブルボックス（flexbox）として表示（子要素の配置を柔軟に制御可能） */
+    flex-direction: column; /* 子要素を垂直方向（列）に配置 */
+}
+
+/* 送信ボタン（input要素）に適用するスタイル */
+input[type='submit'] {
+    margin-top: 10px; /* ボタンの上に10ピクセルのマージンを追加 */
+    background-color: #007BFF; /* ボタンの背景色を青に設定 */
+    color: white; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボタンの境界線を削除 */
+    padding: 10px 15px; /* ボタンの内容と境界の間にパディングを追加（上下に10ピクセル、左右に15ピクセル） */
+    border-radius: 5px; /* ボタンの境界の角を丸くする */
+    cursor: pointer; /* マウスカーソルをポインタに変更（クリック可能な要素を示す） */
+}
+
+/* 送信ボタンにマウスを置いたときに適用するスタイル */
+input[type='submit']:hover {
+    background-color: #0056b3; /* ボタンの背景色を濃い青に変更 */
+}
+button{
+    margin-top: 10px; /* ボタンの上に10ピクセルのマージンを追加 */
+    background-color: #007BFF; /* ボタンの背景色を青に設定 */
+    color: white; /* ボタンのテキスト色を白に設定 */
+    border: none; /* ボタンの境界線を削除 */
+    padding: 10px 15px; /* ボタンの内容と境界の間にパディングを追加（上下に10ピクセル、左右に15ピクセル） */
+    border-radius: 5px; /* ボタンの境界の角を丸くする */
+    cursor: pointer; /* マウスカーソルをポインタに変更（クリック可能な要素を示す） */
+}
+button:hover {
+    background-color: #a3e7a6; /* ボタンにマウスを置くと背景色が#4CAF50に変わる */
+    color: white; /* ボタンのテキスト色を白に設定 */
+}

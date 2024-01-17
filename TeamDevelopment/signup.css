@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 1px;
+    background-color: #f0f0f0;
+    background-image: url("img/book-1283865_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* 修正 */
+}
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    width: 30%; /* 修正 */
+    margin: 0 auto; /* 修正 */
+}
+html, body {
+    height: 95%;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    height: auto;
+    min-height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+div {
+    padding: 25px 0;
+    font-weight: bold;
+}
+input[type="text"], select {
+    width: 98%;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #7956f8;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #444;
+}

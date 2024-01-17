@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>運営側ログイン画面</title>
+    <link rel="stylesheet" type="text/css" href="opelog.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>ログイン</h2>
+        <form action="loginlogic.php" method="post">
+            <label for="type">種類:</label>
+            <input type="radio" name="type" value="本部">本部
+	        <input type="radio" name="type" value="集荷場">集荷場<br>
+            <label for="name">本部/集荷場名:</label>
+            <input type="text" id="name" name="name">
+            <label for="password">パスワード:</label>
+            <input type="password" id="pass" name="pass">
+            <input type="submit" value="ログイン">
+        </form>
+    </div>
+</body>
+</html>
+

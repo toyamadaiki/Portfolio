@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 10px;
+    background: linear-gradient(to right, #89ee9d 0%, #9c73ee 99%, #639fe8 100%);
+    text-align: center;
+    line-height: 1.5; /* 文字間の縦の間隔を調整 */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none; /* リストマーカーを削除 */
+    padding: 0; /* パディングを削除 */
+    margin: 0; /* マージンを削除 */
+}
+
+ul li {
+    padding: 10px 0; /* リスト項目の間隔を調整 */
+    border: 1px solid #333; /* リスト項目を線で囲む */
+    
+    margin-top: auto;
+}
+
+a {
+    color: #0066cc; /* リンクの色を設定 */
+    text-decoration: underline rgb(93, 90, 90);
+    
+    padding: 2px 4px; /* リンクのパディングを設定 */
+    margin-top: 15px;
+}
+
+a:hover {
+    color: #ff6633; /* マウスオーバー時のリンクの色を設定 */
+}

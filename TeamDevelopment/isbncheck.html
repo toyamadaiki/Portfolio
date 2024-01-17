@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="isbncheck.css">
+    
+    <title>isbn確認画面</title>
+</head>
+<body>
+    <form action="isbncheck.php" method="post">
+
+        ISBN検索<br>
+        <input type="text" placeholder="ISBN(13桁)" minlength="13" maxlength="13" name="isbn" required><br>
+
+        <input type="submit" value="送信">
+        
+    </form>
+
+        <button type='button' onclick="location.href='viewlogic.php'">Q & A</button>
+
+        <button type='button' onclick="location.href='graphlogic.php'">寄贈図書統計</button>
+
+</body>
+</html>
